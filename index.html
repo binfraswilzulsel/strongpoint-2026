@@ -307,8 +307,8 @@
             opdCard.innerHTML = `
                 <div class="opd-main-info">
                     <div class="opd-logo-cell">
-                        <img class="opd-logo" src="${namaOPD.toLowerCase()}.png" alt="Logo ${namaOPD}" onerror="this.onerror=null; this.src='https://placehold.co/70x70?text=${inisial}';">
-                    </div>
+// KODE BARU (Benar karena memaksa sistem mencari file huruf kecil)
+<img class="opd-logo" src="${namaOPD.toLowerCase()}.png" alt="Logo ${namaOPD}" onerror="this.onerror=null; this.src='https://placehold.co/70x70?text=${inisial}';">                    </div>
                     <div class="opd-details-cell">
                         <div class="opd-title">${namaOPD}</div>
                         <div class="opd-meta">
